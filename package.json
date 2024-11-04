@@ -1,0 +1,19 @@
+{
+  "name": "code-editor-ws-server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0",
+    "y-websocket": "^1.5.4",
+    "yjs": "^13.6.20"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.x.x",
+    "ts-node": "^10.x.x",
+    "typescript": "^5.x.x"
+  }
+}
